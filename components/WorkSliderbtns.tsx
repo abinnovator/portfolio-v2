@@ -10,7 +10,7 @@ const WorkSliderbtns = ({
 }: {
   containerStyles: string;
   btnStyles: string;
-  iconStyles: string;
+  iconStyles?: string;
 }) => {
   const swiper = useSwiper();
   return (

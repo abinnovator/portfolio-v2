@@ -13,6 +13,7 @@ import {
 import { TooltipTrigger } from "@radix-ui/react-tooltip";
 import Image from "next/image";
 import WorkSliderbtns from "@/components/WorkSliderbtns";
+import type { Swiper as SwiperClass } from "swiper";
 
 const projects = [
   {
@@ -44,7 +45,7 @@ const projects = [
 
 const Work = () => {
   const [project, setproject] = useState(projects[0]);
-  const handleSlideChange = (swiper: any) => {
+  const handleSlideChange = (swiper: SwiperClass) => {
     const currentIndex = swiper.activeIndex;
     setproject(projects[currentIndex]);
   };
