@@ -1,26 +1,26 @@
 "use client";
 import React from "react";
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+// import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
-const icons = [
-  {
-    icon: FaPhoneAlt,
-    title: "Phone",
-    description: "None Yet:)",
-  },
-  {
-    icon: FaEnvelope,
-    title: "Email",
-    description: "info@example.com",
-    link: "mailto:info@example.com",
-  },
-  {
-    icon: FaMapMarkerAlt,
-    title: "Location",
-    description: "Banglore, India",
-  },
-];
+// const icons = [
+//   {
+//     icon: FaPhoneAlt,
+//     title: "Phone",
+//     description: "None Yet:)",
+//   },
+//   {
+//     icon: FaEnvelope,
+//     title: "Email",
+//     description: "info@example.com",
+//     link: "mailto:info@example.com",
+//   },
+//   {
+//     icon: FaMapMarkerAlt,
+//     title: "Location",
+//     description: "Banglore, India",
+//   },
+// ];
 
 import { motion } from "motion/react";
 import { Input } from "@/components/ui/input";
